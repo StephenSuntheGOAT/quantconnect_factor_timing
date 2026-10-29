@@ -1,4 +1,12 @@
-# Research references
+# Project report and research references
+
+## Official project report
+
+Shaogeng Sun (Stephen), *Dynamic Valuation Timing under Trading Frictions*,
+2026-10-29. [Read the official project report](Dynamic_Valuation_Timing_Report.pdf).
+The uploaded PDF is preserved unchanged.
+
+## Research references
 
 - 骆昱杉、严佳炜（华安证券），2026-10-21，《非线性世界中的因子择时》
   （学海拾珠系列之二百八十五）。Original user-provided PDF:

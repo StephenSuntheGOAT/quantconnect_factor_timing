@@ -2,6 +2,8 @@
 
 [中文说明](README_zh.md) · [Results](results/summary.md) · [Experiment log](docs/EXPERIMENT_LOG_zh.md)
 
+**Official project report:** [Dynamic Valuation Timing under Trading Frictions](references/Dynamic_Valuation_Timing_Report.pdf).
+
 A QuantConnect implementation of state-dependent return prediction and dynamic allocation,
 using SPY dividend yield and CFNAI as a market-timing proxy, with BIL as the residual asset.
 Based on Huaan Securities' *Factor Timing in a Nonlinear World* report (2026-10-21).

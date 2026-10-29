@@ -1,13 +1,13 @@
 # File index
 
-This archive contains 98 files, including this index and manifest.sha256.
+This repository contains 99 files, including this index and manifest.sha256.
 
 | File | Bytes |
 |---|---:|
 | [.gitignore](.gitignore) | 125 |
 | [CHANGELOG.md](CHANGELOG.md) | 1,279 |
 | [LICENSE_NOTICE.md](LICENSE_NOTICE.md) | 595 |
-| [README.md](README.md) | 5,832 |
+| [README.md](README.md) | 5,962 |
 | [README_zh.md](README_zh.md) | 6,713 |
 | [VALIDATION.txt](VALIDATION.txt) | 1,776 |
 | [archive/VALIDATION_original.txt](archive/VALIDATION_original.txt) | 1,953 |
@@ -38,7 +38,8 @@ This archive contains 98 files, including this index and manifest.sha256.
 | [examples/rf_tb3ms_REVISED_DEMO.csv](examples/rf_tb3ms_REVISED_DEMO.csv) | 50,028 |
 | [main.py](main.py) | 14,783 |
 | [paper_research.py](paper_research.py) | 14,630 |
-| [references/README.md](references/README.md) | 836 |
+| [references/README.md](references/README.md) | 1,110 |
+| [references/Dynamic_Valuation_Timing_Report.pdf](references/Dynamic_Valuation_Timing_Report.pdf) | 525,499 |
 | [references/huaan_nonlinear_factor_timing_20261021.pdf](references/huaan_nonlinear_factor_timing_20261021.pdf) | 1,857,298 |
 | [requirements-analysis.txt](requirements-analysis.txt) | 36 |
 | [requirements-reproduction.txt](requirements-reproduction.txt) | 133 |
