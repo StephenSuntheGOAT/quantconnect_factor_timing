@@ -1,0 +1,22 @@
+Validation completed: 2026-10-29 (Asia/Shanghai)
+
+PASS: 26 local numerical, temporal-integrity, data-loader and allocation-control tests.
+PASS: immediate fixed allocation and gradual entry use the same execution path and cost configuration as timing models.
+PASS: fixed controls run without macro files or historical training data.
+PASS: fixed allocation responds to holding drift and gradual entry uses the actual current SPY weight.
+PASS: allocation limits, fallback totals and common-sample OOS R2 summaries checked.
+PASS: previous/current adapters produce equal targets, forecasts and score records for 24 synthetic monthly rebalances across the original four models.
+PASS: main.py and timing_core.py are readable independent source modules, each below 32,000 characters/bytes.
+PASS: no compression/encoding package imports or dynamic source execution in project modules.
+PASS: no historical dataset values embedded in either project module.
+PASS: no obsolete embedded_macro.py, build_main.py or qc_adapter.py in the deliverable.
+PASS: separately supplied CSV files load from Object Store without default HTTP requests.
+PASS: root keys, explicit keys, project-prefixed keys and HTTPS CSV URLs handled.
+PASS: missing/empty/HTML data produce actionable errors rather than fabricated values.
+
+Supplied CSVs are actual FRED revised history obtained outside QuantConnect, not point-in-time PMI or original 50-anomaly panels.
+Data must be supplied via a permitted data channel, not pasted into project source.
+Only QCAlgorithm and services were minimally mocked; no cloud/LEAN backtest was executed here.
+The 55% target was chosen after observing the earlier sample; controls diagnose that sample, not an independent out-of-sample test.
+Forecast scoring timing is unchanged: 2020-2025 normally has 72 rebalances but 71 scored monthly forecasts.
+Object Store requires a paid organization per official docs; user-supplied HTTPS CSV URLs are an alternative.

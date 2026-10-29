@@ -1,0 +1,21 @@
+{
+  "retrieved_date": "2026-10-28",
+  "timezone": "Asia/Shanghai",
+  "snapshots_are_revised_not_point_in_time": true,
+  "available_at_is_assumed_not_real_release_time": true,
+  "assumed_delay": "observation month + 2 months, first calendar day at 00:00 New York",
+  "snapshots": [
+    {
+      "file": "examples/macro_cfnai_REVISED_DEMO.csv",
+      "source": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=CFNAI"
+    },
+    {
+      "file": "examples/rf_tb3ms_REVISED_DEMO.csv",
+      "source": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=TB3MS"
+    }
+  ],
+  "embedded_in_main_py": false,
+  "external_macro_http_required_by_default": false,
+  "default_data_channel": "Object Store CSV; alternatively user-supplied HTTPS CSV URL",
+  "origin": "Direct public FRED download outside QuantConnect"
+}

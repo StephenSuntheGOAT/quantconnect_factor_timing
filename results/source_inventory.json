@@ -1,0 +1,80 @@
+[
+  {
+    "original_filename": "model_mean.json",
+    "archive_path": "results/raw/model_mean.json",
+    "sha256": "473319197656cbeeafcc2777b9fb7367bb50159fc4e07c271c4b3b6eb62318af",
+    "size_bytes": 1302196
+  },
+  {
+    "original_filename": "model_linear.json",
+    "archive_path": "results/raw/model_linear.json",
+    "sha256": "ed93a64889c5c7253b549eb5ef600298649517a5f01963fa7257f26d325b2754",
+    "size_bytes": 1409088
+  },
+  {
+    "original_filename": "model_bivariate.json",
+    "archive_path": "results/raw/model_bivariate.json",
+    "sha256": "ce271f54b8e329280a71dcc1d09303c506097e94de4dbc948faf0d2150f3beab",
+    "size_bytes": 1405473
+  },
+  {
+    "original_filename": "model_interaction.json",
+    "archive_path": "results/raw/model_interaction.json",
+    "sha256": "96b5665af59fc652f79788f7ae6825ae3f09cc117b859b6bfce5f13fb2fb0245",
+    "size_bytes": 1347421
+  },
+  {
+    "original_filename": "A.json",
+    "archive_path": "results/raw/A.json",
+    "sha256": "0f27112e0f7b23f1566d3905cccb80fdaf690ad877b739308b9f24985204ede2",
+    "size_bytes": 1386346
+  },
+  {
+    "original_filename": "B.json",
+    "archive_path": "results/raw/B.json",
+    "sha256": "b3db8a49f8d7672338367b01a438f5b326f370cd7ef65dca6d17b9f7dd0fcd9b",
+    "size_bytes": 1351481
+  },
+  {
+    "original_filename": "C.json",
+    "archive_path": "results/raw/C.json",
+    "sha256": "357323519912e4bfd7ede618caeb7a9b9c660a767269d57cbd8f8381f6316c80",
+    "size_bytes": 1347643
+  },
+  {
+    "original_filename": "Ugly Fluorescent Pink Snake.json",
+    "archive_path": "results/raw/Ugly_Fluorescent_Pink_Snake.json",
+    "sha256": "7049fb316661efb463b2967c70baae7a1b90428ca85135e45845e08d04589549",
+    "size_bytes": 1393165
+  },
+  {
+    "original_filename": "Ugly Fluorescent Pink Snake(1).json",
+    "archive_path": "results/raw/Ugly_Fluorescent_Pink_Snake_duplicate_1.json",
+    "sha256": "7049fb316661efb463b2967c70baae7a1b90428ca85135e45845e08d04589549",
+    "size_bytes": 1393165
+  },
+  {
+    "original_filename": "螢幕截圖 2026-10-29 上午12.37.51.jpg",
+    "archive_path": "results/evidence/01_model_oos_r2.jpg",
+    "sha256": "89933832f3cfb98adf4c439eb2d3e37798cd70eeac7925d0feceaa2a775c9de6",
+    "size_bytes": 77996
+  },
+  {
+    "original_filename": "螢幕截圖 2026-10-29 下午1.57.24.jpg",
+    "archive_path": "results/evidence/02_constrained_diagnostics.jpg",
+    "sha256": "92982944b58163a9c7859c1a7ca856ef0322f33ce8c19576ddcdb2d0b7c60728",
+    "size_bytes": 126814
+  },
+  {
+    "original_filename": "螢幕截圖 2026-10-29 下午2.05.26.jpg",
+    "archive_path": "results/evidence/03_unconstrained_diagnostics.jpg",
+    "sha256": "aec4c706a8e9ebdacee285a7726806402d0bb52437c011d3162a67e18d48a41d",
+    "size_bytes": 199783
+  },
+  {
+    "original_filename": "image.png",
+    "archive_path": "results/evidence/04_unconstrained_diagnostics_duplicate.png",
+    "sha256": "4479b60ebd0cc082ff4c88395ea6190d8df62717b8d8075ab7578974bb97cbbd",
+    "size_bytes": 718643
+  }
+]

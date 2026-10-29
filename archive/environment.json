@@ -1,0 +1,13 @@
+{
+  "python_version": "3.12.14",
+  "local_packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.8"
+  },
+  "cloud_lean_versions": [
+    "v2.5.0.0.18209",
+    "v2.5.0.0.18215"
+  ],
+  "note": "Local verification environment, not the complete cloud runtime. Backtests use user-exported cloud results; no new cloud run was performed while packaging."
+}

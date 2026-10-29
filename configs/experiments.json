@@ -1,0 +1,118 @@
+{
+  "archive_date": "2026-10-29",
+  "timezone": "Asia/Shanghai",
+  "experiments": [
+    {
+      "id": "model_mean",
+      "stage": "01_models",
+      "label": "Mean",
+      "raw_path": "results/raw/model_mean.json",
+      "parameter_path": "configs/parameters/model_mean.json",
+      "original_filename": "model_mean.json",
+      "cloud_run_start_utc": "2026-10-28T16:14:45Z"
+    },
+    {
+      "id": "model_linear",
+      "stage": "01_models",
+      "label": "Linear",
+      "raw_path": "results/raw/model_linear.json",
+      "parameter_path": "configs/parameters/model_linear.json",
+      "original_filename": "model_linear.json",
+      "cloud_run_start_utc": "2026-10-28T16:19:43Z"
+    },
+    {
+      "id": "model_bivariate",
+      "stage": "01_models",
+      "label": "Bivariate",
+      "raw_path": "results/raw/model_bivariate.json",
+      "parameter_path": "configs/parameters/model_bivariate.json",
+      "original_filename": "model_bivariate.json",
+      "cloud_run_start_utc": "2026-10-28T16:26:02Z"
+    },
+    {
+      "id": "model_interaction",
+      "stage": "01_models",
+      "label": "Interaction (constrained)",
+      "raw_path": "results/raw/model_interaction.json",
+      "parameter_path": "configs/parameters/model_interaction.json",
+      "original_filename": "model_interaction.json",
+      "cloud_run_start_utc": "2026-10-28T16:11:43Z"
+    },
+    {
+      "id": "control_A",
+      "stage": "02_controls",
+      "label": "A: fixed 55%, immediate",
+      "raw_path": "results/raw/A.json",
+      "parameter_path": "configs/parameters/control_A.json",
+      "original_filename": "A.json",
+      "cloud_run_start_utc": "2026-10-29T05:49:02Z"
+    },
+    {
+      "id": "control_B",
+      "stage": "02_controls",
+      "label": "B: fixed 55%, gradual",
+      "raw_path": "results/raw/B.json",
+      "parameter_path": "configs/parameters/control_B.json",
+      "original_filename": "B.json",
+      "cloud_run_start_utc": "2026-10-29T05:51:45Z"
+    },
+    {
+      "id": "diagnostic_C",
+      "stage": "02_controls",
+      "label": "C: interaction repeat",
+      "raw_path": "results/raw/C.json",
+      "parameter_path": "configs/parameters/diagnostic_C.json",
+      "original_filename": "C.json",
+      "cloud_run_start_utc": "2026-10-29T05:54:46Z"
+    },
+    {
+      "id": "interaction_unconstrained",
+      "stage": "03_ablation",
+      "label": "Interaction (no sign filter)",
+      "raw_path": "results/raw/Ugly_Fluorescent_Pink_Snake.json",
+      "parameter_path": "configs/parameters/interaction_unconstrained.json",
+      "original_filename": "Ugly Fluorescent Pink Snake.json",
+      "cloud_run_start_utc": "2026-10-29T06:02:55Z"
+    }
+  ],
+  "duplicate_exports": [
+    {
+      "raw_path": "results/raw/Ugly_Fluorescent_Pink_Snake_duplicate_1.json",
+      "duplicate_of": "results/raw/Ugly_Fluorescent_Pink_Snake.json",
+      "reason": "Exact byte duplicate, confirmed by SHA-256; not a separate experiment."
+    }
+  ],
+  "default_resolution_note": "Parameter files preserve only values explicitly exported by QuantConnect. Defaults below are read from the latest archived source, not from an unavailable cloud source revision.",
+  "defaults_from_latest_source": {
+    "start": "2020-01-01",
+    "end": "2025-12-31",
+    "model": "interaction",
+    "window": 240,
+    "expanding": false,
+    "economic_constraints": true,
+    "gamma": 3,
+    "lambda": 300,
+    "var_cap": 0.995,
+    "max_weight": 0.99,
+    "slippage_bps": 1,
+    "fixed_weight": 0.55,
+    "fixed_entry": "immediate",
+    "annual_discount": 0.02,
+    "initial_cash_usd": 1000000,
+    "bil_plus_spy_target": 0.995
+  },
+  "not_effective_for_nonfixed_models": [
+    "fixed_weight",
+    "fixed_entry"
+  ],
+  "not_used_by_fixed_controls": [
+    "macro_url",
+    "rf_url",
+    "macro_key",
+    "rf_key",
+    "window",
+    "expanding",
+    "economic_constraints",
+    "var_cap"
+  ]
+}

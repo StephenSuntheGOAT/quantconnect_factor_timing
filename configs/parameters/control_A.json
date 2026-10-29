@@ -1,0 +1,9 @@
+{
+  "macro_url": "https://raw.githubusercontent.com/StephenSuntheGOAT/qc-macro-data/refs/heads/main/macro_cfnai_REVISED_DEMO.csv",
+  "rf_url": "https://raw.githubusercontent.com/StephenSuntheGOAT/qc-macro-data/refs/heads/main/rf_tb3ms_REVISED_DEMO.csv",
+  "model": "fixed",
+  "start": "2020-01-01",
+  "end": "2025-12-31",
+  "fixed_weight": "0.55",
+  "fixed_entry": "immediate"
+}

@@ -1,0 +1,28 @@
+Archival verification: 2026-10-29 (Asia/Shanghai)
+
+PASS: 26 existing local numerical, data-loader, time-alignment, PCA and allocation tests.
+      Full output: results/local_tests.txt
+PASS: main.py, timing_core.py, paper_research.py, tests.py and requirements.txt
+      are byte-identical to the previous source bundle.
+PASS: all Python files parse successfully.
+PASS: original JSON exports, macro CSVs and source evidence preserved without content edits.
+PASS: eight runs summarized; nine JSON downloads retained, including one exact duplicate.
+PASS: summary generator checks cumulative return against ending equity and final candle CLOSE.
+PASS: each run contains 72 monthly SPY targets, and available runtime averages agree within rounding.
+PASS: exact exported parameter snapshots stored without filling unobserved historical source defaults.
+PASS: one overview figure visually inspected for labels, clipping and layout.
+PASS: common embedded credential patterns not found in authored/source text files.
+
+Final archive verification is performed by scripts/verify_archive.py:
+- all deliverable file hashes against manifest.sha256;
+- exact parameter snapshots against raw exports;
+- return/equity identities;
+- identical Snake download copies;
+- unchanged interaction portfolio statistics and key charts in C.
+
+Verification scope:
+No new QuantConnect/LEAN cloud backtest was executed while packaging.
+Local tests use a minimal QC service mock; the archived JSON files are the user's cloud outputs.
+Revised macro data do not become point-in-time data through an assumed release delay.
+Missing original PMI/anomaly panels, full quote history and per-run source snapshots were not fabricated.
+The existing 2020-2025 sample has already been inspected; it is not a fresh holdout.

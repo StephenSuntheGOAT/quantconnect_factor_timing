@@ -1,0 +1,31 @@
+test_allocation_limits_and_summary_counts_are_not_raw_target_values (__main__.TimingTests.test_allocation_limits_and_summary_counts_are_not_raw_target_values) ... ok
+test_bellman_scalar_solution_and_discount_identity (__main__.TimingTests.test_bellman_scalar_solution_and_discount_identity) ... ok
+test_dividend_yield_and_total_return_no_double_count (__main__.TimingTests.test_dividend_yield_and_total_return_no_double_count) ... ok
+test_economic_sign_filter_falls_back_to_mean (__main__.TimingTests.test_economic_sign_filter_falls_back_to_mean) ... ok
+test_empty_and_html_payloads_have_clear_errors (__main__.TimingTests.test_empty_and_html_payloads_have_clear_errors) ... ok
+test_fixed_control_needs_no_csv_and_rebalances_after_drift (__main__.TimingTests.test_fixed_control_needs_no_csv_and_rebalances_after_drift) ... ok
+test_fixed_control_rejects_invalid_exposure_and_entry (__main__.TimingTests.test_fixed_control_rejects_invalid_exposure_and_entry) ... ok
+test_fred_delay_is_explicit (__main__.TimingTests.test_fred_delay_is_explicit) ... ok
+test_future_returns_cannot_change_past_forecasts (__main__.TimingTests.test_future_returns_cannot_change_past_forecasts) ... ok
+test_gradual_control_uses_actual_weight_and_same_trading_speed (__main__.TimingTests.test_gradual_control_uses_actual_weight_and_same_trading_speed) ... ok
+test_mean_aim_is_mean_variance_portfolio (__main__.TimingTests.test_mean_aim_is_mean_variance_portfolio) ... ok
+test_missing_month_is_not_silently_compressed (__main__.TimingTests.test_missing_month_is_not_silently_compressed) ... ok
+test_pca_hedge_and_frozen_future_data (__main__.TimingTests.test_pca_hedge_and_frozen_future_data) ... ok
+test_prediction_quality_summary_keeps_common_sample_and_fallback_counts (__main__.TimingTests.test_prediction_quality_summary_keeps_common_sample_and_fallback_counts) ... ok
+test_qc_csv_url_rejects_empty_responses_and_local_paths (__main__.TimingTests.test_qc_csv_url_rejects_empty_responses_and_local_paths) ... ok
+test_qc_default_macro_loader_never_downloads (__main__.TimingTests.test_qc_default_macro_loader_never_downloads) ... ok
+test_qc_exact_key_and_project_prefixed_keys_are_supported (__main__.TimingTests.test_qc_exact_key_and_project_prefixed_keys_are_supported) ... ok
+test_qc_explicit_csv_url_can_load_without_object_store (__main__.TimingTests.test_qc_explicit_csv_url_can_load_without_object_store) ... ok
+test_qc_explicit_object_store_data_do_not_silently_fall_back (__main__.TimingTests.test_qc_explicit_object_store_data_do_not_silently_fall_back) ... ok
+test_qc_missing_csv_has_upload_instructions (__main__.TimingTests.test_qc_missing_csv_has_upload_instructions) ... ok
+test_quadratic_lift_against_conditional_monte_carlo (__main__.TimingTests.test_quadratic_lift_against_conditional_monte_carlo) ... ok
+test_readable_project_modules_meet_size_and_source_constraints (__main__.TimingTests.test_readable_project_modules_meet_size_and_source_constraints) ... ok
+test_reject_impossible_release_dates (__main__.TimingTests.test_reject_impossible_release_dates) ... ok
+test_release_time_and_old_revision_precedence (__main__.TimingTests.test_release_time_and_old_revision_precedence) ... ok
+test_resolvent_against_independent_ar1_formula (__main__.TimingTests.test_resolvent_against_independent_ar1_formula) ... ok
+test_separate_csv_snapshots_cover_required_history (__main__.TimingTests.test_separate_csv_snapshots_cover_required_history) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 1.070s
+
+OK

@@ -1,0 +1,62 @@
+{
+  "transcription_method": "Manually read user-provided log screenshots. These are aggregate diagnostics, not recovered monthly forecast records. Original images are retained.",
+  "initial_models": {
+    "source": "results/evidence/01_model_oos_r2.jpg",
+    "forecast_n": 71,
+    "oos_r2_fraction": {
+      "linear": -0.007606,
+      "bivariate": -0.223068,
+      "interaction": -0.006183
+    }
+  },
+  "constrained": {
+    "source": "results/evidence/02_constrained_diagnostics.jpg",
+    "run_id": "diagnostic_C",
+    "rebalances": 72,
+    "avg_spy_target_display_fraction": 0.8368,
+    "cap_touches": 34,
+    "zero_touches": 0,
+    "fits_per_model": 72,
+    "mean_fallbacks": {
+      "linear": 0,
+      "bivariate": 0,
+      "interaction": 52
+    },
+    "var_stabilized": {
+      "linear": 1,
+      "bivariate": 1,
+      "interaction": 1
+    }
+  },
+  "unconstrained": {
+    "source": "results/evidence/03_unconstrained_diagnostics.jpg",
+    "additional_image": "results/evidence/04_unconstrained_diagnostics_duplicate.png",
+    "run_id": "interaction_unconstrained",
+    "rebalances": 72,
+    "avg_spy_target_display_fraction": 0.3843,
+    "cap_touches": 0,
+    "zero_touches": 5,
+    "fits_per_model": 72,
+    "mean_fallbacks": {
+      "linear": 0,
+      "bivariate": 0,
+      "interaction": 0
+    },
+    "var_stabilized": {
+      "linear": 1,
+      "bivariate": 1,
+      "interaction": 1
+    },
+    "forecast_n": 71,
+    "oos_r2_fraction": {
+      "linear": -0.007606,
+      "bivariate": -0.223068,
+      "interaction": -0.207547
+    }
+  },
+  "notes": [
+    "Fit counts include the final unscored forecast.",
+    "Screenshot averages are rounded; summary.csv derives precise means from chart targets.",
+    "The images for the last run show the same text; their binary formats differ."
+  ]
+}
